@@ -1,0 +1,12 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE5F2"/>
+      <stop offset="100%" stop-color="#6D214F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g4)"/>
+  <path d="M0 620 Q 300 540 600 620 T 1200 620 V 800 H 0 Z" fill="#fff" fill-opacity="0.12"/>
+  <text x="600" y="340" text-anchor="middle" fill="#fff" font-size="68" font-family="Georgia" font-weight="700">Hand & Foot Spa</text>
+  <text x="600" y="420" text-anchor="middle" fill="#fff" font-size="34" font-family="Arial">Manicure • Pedicure • Nail Art</text>
+</svg>

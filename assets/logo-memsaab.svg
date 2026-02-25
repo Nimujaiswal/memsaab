@@ -1,0 +1,10 @@
+<svg width="220" height="70" viewBox="0 0 220 70" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Memsaab Logo</title>
+  <desc id="desc">Memsaab premium salon and beauty studio logo.</desc>
+  <rect width="220" height="70" rx="14" fill="#FFF1F8"/>
+  <circle cx="35" cy="35" r="20" fill="#6D214F"/>
+  <path d="M26 35C26 29.4772 30.4772 25 36 25C41.5228 25 46 29.4772 46 35" stroke="#FFE5F2" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="36" cy="39" r="3" fill="#FFE5F2"/>
+  <text x="64" y="33" font-size="23" font-family="Georgia, 'Times New Roman', serif" font-weight="700" fill="#6D214F">Memsaab</text>
+  <text x="64" y="51" font-size="10" font-family="Arial, sans-serif" letter-spacing="1.4" fill="#A33D71">SALON • STUDIO • GLOW</text>
+</svg>
