@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MEM SAAB | Luxury Ethnic Wear</title>
+  <meta name="description" content="MEM SAAB is a luxury ethnic wear brand blending heritage craftsmanship with modern royalty." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="home">
+    <nav class="navbar container" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="MEM SAAB home">
+        <img src="assets/memsaab-ethnic-logo.svg" alt="MEM SAAB logo" class="brand-logo" />
+      </a>
+
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="wishlistBtn" aria-label="Wishlist">♡ <span id="wishlistCount">0</span></button>
+        <button class="icon-btn" id="cartBtn" aria-label="Cart">🛍 <span id="cartCount">0</span></button>
+      </div>
+    </nav>
+
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">Luxury Ethnic Wear</p>
+        <h1>Timeless Elegance. Modern Royalty.</h1>
+        <p>
+          Discover handcrafted ethnic wear that blends heritage artistry with contemporary grace.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#shop">Shop Collection</a>
+          <a class="btn btn-secondary" href="#featured">Explore New Arrivals</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="assets/hero-royal.svg" alt="Luxury ethnic fashion lookbook" />
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section" id="featured">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Featured Collection</p>
+          <h2>Heritage Bloom Collection</h2>
+          <p>A curated selection of intricately detailed kurta sets and elegant silhouettes crafted for modern royalty.</p>
+        </div>
+
+        <div class="slider" aria-label="Featured collection slider">
+          <button class="slider-btn prev" type="button" aria-label="Previous slide">❮</button>
+          <div class="slider-window">
+            <div class="slider-track">
+              <figure class="slide"><img src="assets/collection-1.svg" alt="Heritage Bloom pastel kurta set" /></figure>
+              <figure class="slide"><img src="assets/collection-2.svg" alt="Heritage Bloom maroon festive ensemble" /></figure>
+              <figure class="slide"><img src="assets/collection-3.svg" alt="Heritage Bloom embroidered silhouette" /></figure>
+            </div>
+          </div>
+          <button class="slider-btn next" type="button" aria-label="Next slide">❯</button>
+        </div>
+        <div class="slider-dots" aria-label="Slider navigation dots"></div>
+      </div>
+    </section>
+
+    <section class="section section-shop" id="shop">
+      <div class="container">
+        <div class="section-heading left">
+          <p class="eyebrow">Shop</p>
+          <h2>Curated Premium Styles</h2>
+        </div>
+
+        <div class="filters" aria-label="Product filters">
+          <button class="chip active" type="button">All</button>
+          <button class="chip" type="button">Kurta Sets</button>
+          <button class="chip" type="button">Festive</button>
+          <button class="chip" type="button">New Arrivals</button>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <img src="assets/product-1.svg" alt="Ivory gold kurta set" />
+            <h3>Ivory Regal Kurta Set</h3>
+            <p>₹4,999</p>
+            <div class="product-actions">
+              <button class="btn small add-to-cart" type="button">Add to Cart</button>
+              <button class="btn small ghost add-to-wishlist" type="button">Wishlist</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="assets/product-2.svg" alt="Rose maroon festive anarkali" />
+            <h3>Rose Maroon Anarkali</h3>
+            <p>₹6,499</p>
+            <div class="product-actions">
+              <button class="btn small add-to-cart" type="button">Add to Cart</button>
+              <button class="btn small ghost add-to-wishlist" type="button">Wishlist</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="assets/product-3.svg" alt="Champagne embroidered set" />
+            <h3>Champagne Embroidered Set</h3>
+            <p>₹5,799</p>
+            <div class="product-actions">
+              <button class="btn small add-to-cart" type="button">Add to Cart</button>
+              <button class="btn small ghost add-to-wishlist" type="button">Wishlist</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-about" id="about">
+      <div class="container about-layout">
+        <div>
+          <p class="eyebrow">Our Philosophy</p>
+          <h2>Heritage-Inspired Craftsmanship, Tailored for Today</h2>
+          <p>At MEM SAAB, we celebrate refined Indian femininity through heritage-inspired craftsmanship and modern tailoring.</p>
+        </div>
+        <ul class="feature-list" aria-label="Why choose us">
+          <li>Premium breathable fabrics</li>
+          <li>Intricate traditional detailing</li>
+          <li>Modern tailored silhouettes</li>
+          <li>Elegant color palettes</li>
+          <li>Limited curated designs</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Testimonials</p>
+          <h2>What Our Royal Circle Says</h2>
+        </div>
+        <div class="testimonial-grid">
+          <article class="t-card"><p>“The fit, the fabric, and the finishing are truly premium. MEM SAAB feels luxurious.”</p><h3>— Aditi R.</h3></article>
+          <article class="t-card"><p>“Beautiful heritage feel with modern comfort. I got so many compliments at my event.”</p><h3>— Neha P.</h3></article>
+          <article class="t-card"><p>“Elegant and timeless styles. The quality is exactly what I expect from a luxury label.”</p><h3>— Sana M.</h3></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-commerce">
+      <div class="container">
+        <div class="section-heading left">
+          <p class="eyebrow">Shopping Experience</p>
+          <h2>Built for Premium Convenience</h2>
+        </div>
+        <div class="feature-chips">
+          <span>Product Filters</span>
+          <span>Add to Cart</span>
+          <span>Wishlist</span>
+          <span>Secure Checkout</span>
+          <span>Razorpay Integration Ready</span>
+          <span>Cash on Delivery</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-newsletter" id="contact">
+      <div class="container newsletter-card">
+        <p class="eyebrow">Join The Royal Circle</p>
+        <h2>Subscribe for Exclusive Launches</h2>
+        <p>Subscribe to receive exclusive launches and styling updates.</p>
+        <form class="newsletter-form" action="#" method="post">
+          <input type="email" name="email" placeholder="Enter your email" aria-label="Email address" required />
+          <button class="btn btn-primary" type="submit">Subscribe</button>
+        </form>
+        <p class="contact-line">For direct assistance call: <a href="tel:+919892568093">+91 98925 68093</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-layout">
+      <div>
+        <a class="brand-text" href="#home">MEM SAAB</a>
+        <p>Luxury Ethnic Wear</p>
+      </div>
+      <ul class="footer-links" aria-label="Footer pages">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">Product Detail</a></li>
+        <li><a href="#">Shipping Policy</a></li>
+        <li><a href="#">Return Policy</a></li>
+      </ul>
+    </div>
+    <p class="copyright">© <span id="year"></span> MEM SAAB. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
